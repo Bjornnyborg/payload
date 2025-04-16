@@ -1,0 +1,20 @@
+import type { AdminViewServerProps, ListQuery } from 'payload';
+import React from 'react';
+type RenderListViewArgs = {
+    customCellProps?: Record<string, any>;
+    disableBulkDelete?: boolean;
+    disableBulkEdit?: boolean;
+    disableQueryPresets?: boolean;
+    drawerSlug?: string;
+    enableRowSelections: boolean;
+    overrideEntityVisibility?: boolean;
+    query: ListQuery;
+    redirectAfterDelete?: boolean;
+    redirectAfterDuplicate?: boolean;
+} & AdminViewServerProps;
+export declare const renderListView: (args: RenderListViewArgs) => Promise<{
+    List: React.ReactNode;
+}>;
+export declare const ListView: React.FC<RenderListViewArgs>;
+export {};
+//# sourceMappingURL=index.d.ts.map

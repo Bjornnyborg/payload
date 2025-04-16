@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/auth/isLocked.ts"],"sourcesContent":["const isLocked = (date: number): boolean => {\n  if (!date) {\n    return false\n  }\n  return date > Date.now()\n}\nexport default isLocked\n"],"names":["isLocked","date","Date","now"],"mappings":"AAAA,MAAMA,WAAW,CAACC;IAChB,IAAI,CAACA,MAAM;QACT,OAAO;IACT;IACA,OAAOA,OAAOC,KAAKC,GAAG;AACxB;AACA,eAAeH,SAAQ"}

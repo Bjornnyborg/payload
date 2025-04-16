@@ -1,0 +1,1 @@
+{"version":3,"file":"types.js","names":[],"sources":["../../../../src/views/Version/SelectLocales/types.ts"],"sourcesContent":["import type { OptionObject } from 'payload'\n\nexport type Props = {\n  onChange: (options: OptionObject[]) => void\n  options: OptionObject[]\n  value: OptionObject[]\n}\n"],"mappings":"AAEA","ignoreList":[]}
